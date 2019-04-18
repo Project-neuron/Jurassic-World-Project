@@ -1,3 +1,6 @@
+
+//Adding button logic to control the play pause for each individual slide show. Along with 
+//warning and high light effects
 const carousel1 = $("#carousel1")
 const playButton1 = document.querySelector("#playButtonForCarOne")
 const pauseButton1 = document.querySelector("#pauseButtonForCarOne")

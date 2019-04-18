@@ -1,3 +1,5 @@
+
+//Setting button functionality and adding click events to the buttons for log in logic 
 const input = document.querySelector("input");
 const submit = document.querySelector("button");
 const card = document.querySelector(".card");
