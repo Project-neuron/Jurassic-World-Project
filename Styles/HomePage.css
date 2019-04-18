@@ -1,0 +1,155 @@
+
+
+
+
+.nav-link{
+	color: white;
+}
+
+#car-modules {
+	margin-top: 100px;
+
+}
+
+.navbar {
+	background-color: #0481ca !important;
+}
+
+.card{
+	width: 30rem; 
+	height: 40rem;
+	margin-bottom: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(7, 221, 78, 0.849);
+}
+
+.miniCard{
+	width:10rem;
+	height:10rem;
+}
+
+.danger{
+	border: 2px solid red;
+}
+
+.startButton {
+    width: 150px;
+    height: 50px;
+    border-radius: 6px;
+    border: 2px solid #6bf840;
+    box-shadow: 1px 10px #888888;
+    outline: none;
+	margin-top: 50px;
+	padding-right:10px;
+	background: rgb(203, 250, 215)
+}
+
+.startDisabled{
+    width: 150px;
+    height: 50px;
+    border-radius: 6px;
+    border: 2px solid #e3e9e1;
+    outline: none;
+    margin-top: 50px;
+	padding-right:10px;
+	background: rgb(95, 255, 32)
+
+}
+
+
+.startButton:hover {
+	background-color: #f3f72c;
+	color: rgb(24, 23, 23);
+}
+
+.startButton:active {
+	background-color: #115514;
+	box-shadow: 0 5px rgb(43, 42, 42);
+	transform: translateY(4px);
+}
+
+.endButton{
+	width: 150px;
+    height: 50px;
+    border-radius: 6px;
+    border: 2px solid #e70707;
+	box-shadow: 1px 9px #888888;
+	background-color:#f58d8d;  
+    outline: none;
+	margin-top: 50px;
+	margin-left: 130px;
+	
+}
+
+.endDisabled{
+	width: 150px;
+    height: 50px;
+    border-radius: 6px;
+    border: 2px solid #e70707;
+	background-color:#f58d8d;  
+    outline: none;
+	margin-top: 50px;
+	margin-left: 130px;
+
+}
+
+.endButton:hover {
+	background-color: #d3664b;
+	color: rgb(24, 23, 23);
+}
+
+.endButton:active {
+	background-color: #b61601;
+	box-shadow: 0 5px rgb(43, 42, 42);
+	transform: translateY(10px);
+}
+
+
+
+.container{
+	margin-top: 10px;
+}
+
+img{
+	height: 300px;
+	width: 300px;
+}
+
+.statusGood{
+	color: rgb(112, 160, 0);
+}
+
+h3{
+	padding-right: 10px;
+	padding-left: 5px;
+}
+
+.statusDanger{
+	color: red;
+}
+
+#textRow{
+	margin-left: .1px;
+}
+
+#menuOptions{
+	margin-left: 80%;
+}
+
+h4{
+	margin-right: 10px;
+}
+
+.buttonContainer{
+	margin-top: 20px;
+	margin-left: 30px;
+
+}
+
+#navbarNav{
+	margin-left: 60%
+}
